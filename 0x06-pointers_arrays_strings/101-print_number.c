@@ -2,24 +2,21 @@
 #include "main.h"
 
 /**
-* _strcpy - Copy paste string
-* @dest: destination
-* @src: source
-*
-* Return: destination
-*/
-
-char *_strcpy(char *dest, char *src)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int inc = 0;
-
-	while (*(src + inc) != '\0')
-	{
-		*(dest + inc) = *(src + inc);
-		inc++;
-	}
-	*(dest + inc) = '\0';
-
-
-	return (dest);
+    print_number(98);
+    _putchar('\n');
+    print_number(402);
+    _putchar('\n');
+    print_number(1024);
+    _putchar('\n');
+    print_number(0);
+    _putchar('\n');
+    print_number(-98);
+    _putchar('\n');
+    return (0);
 }
